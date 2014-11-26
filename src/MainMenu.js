@@ -5,6 +5,7 @@ var MainMenuLayer = cc.Layer.extend({
 	ctor : function(){
 		this._super();
 		cc.spriteFrameCache.addSpriteFrames(res.textureTransparentPack_plist);
+		
 	},
 	init : function(){
 		this._super();
